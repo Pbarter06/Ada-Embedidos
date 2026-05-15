@@ -1,0 +1,100 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatA
+A --RTS=/tools/GNAT/gnat-2020-arm/arm-eabi/lib/gnat/ravenscar-full-zynq7000/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-a9
+A -mfpu=vfpv3
+A -marm
+A -mno-unaligned-access
+A -march=armv7-a+mp+sec+vfpv3
+P DB LC TF  ZX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_RELATIVE_DELAY
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U demo%b		demo.adb		532a2d93 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W gpio%s		gpio.adb		gpio.ali
+W motor1%s		motor1.adb		motor1.ali
+W system%s		system.ads		system.ali
+W system.multiprocessors%s  s-multip.adb	s-multip.ali
+Z system.relative_delays%s  s-reldel.adb	s-reldel.ali
+W uart%s		uart.adb		uart.ali
+
+D ada.ads		20210218105137 76789da1 ada%s
+D a-except.ads		20210218105137 a7106115 ada.exceptions%s
+D a-reatim.ads		20210218105137 4c16970e ada.real_time%s
+D a-retide.ads		20210218105137 081cdaa4 ada.real_time.delays%s
+D a-unccon.ads		20210218105137 0e9b276f ada.unchecked_conversion%s
+D demo.adb		20260424142058 bbb96868 demo%b
+D gpio.ads		20260414112650 fa831c74 gpio%s
+D interfac.ads		20210218105137 5ab55268 interfaces%s
+D motor1.ads		20260515134855 2dac8a98 motor1%s
+D system.ads		20210218105137 da70b04d system%s
+D s-bb.ads		20210218105137 09e072ae system.bb%s
+D s-bbbosu.ads		20210218105137 b43d4db6 system.bb.board_support%s
+D s-bbcppr.ads		20210218105137 59b80593 system.bb.cpu_primitives%s
+D s-bbcpsp.ads		20210218105137 720822f6 system.bb.cpu_specific%s
+D s-bbinte.ads		20210218105137 c88d39da system.bb.interrupts%s
+D s-bbpara.ads		20210218105137 b8769de5 system.bb.parameters%s
+D s-bbthre.ads		20210218105137 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20210218105137 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20210218105137 ad086247 system.bb.time%s
+D s-multip.ads		20210218105137 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20210218105137 229b14dd system.os_interface%s
+D s-parame.ads		20210218105137 96993d70 system.parameters%s
+D s-reldel.ads		20210218105137 d2ec2544 system.relative_delays%s
+D s-secsta.ads		20210218105137 56a2861c system.secondary_stack%s
+D s-stalib.ads		20210218105137 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20210218105137 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20210218105137 801abd01 system.task_info%s
+D s-taspri.ads		20210218105137 351848fa system.task_primitives%s
+D s-taskin.ads		20210218105137 58b15916 system.tasking%s
+D s-tasres.ads		20210218105137 0c8ef6fb system.tasking.restricted%s
+D s-tarest.ads		20210218105137 c88b6d9a system.tasking.restricted.stages%s
+D s-traent.ads		20210218105137 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210218105137 5ecf7212 system.unsigned_types%s
+D uart.ads		20250130102942 80944a2c uart%s
+G a e
+G c Z b b [demo standard 7 11 none]
+G r c none [demo standard 7 11 none] [inituart uart 3 13 none]
+G r c none [demo standard 7 11 none] [init gpio 53 11 none]
+G r c none [demo standard 7 11 none] [avance_linea_recta motor1 57 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 6|2r6 2r25 52r13
+X 3 a-reatim.ads
+41K13*Real_Time 182e18 6|2w10 2r29 52r17
+51M9*Time<19|46M9>
+53m4*Time_Last{51M9} 6|52r27
+X 6 demo.adb
+7U11*Demo 7b11 54l5 54t9
+X 7 gpio.ads
+5K9*GPIO 6|3w6 3r16 7|58e9
+53U11*Init 6|24s4
+X 9 motor1.ads
+1K9*motor1 6|4w6 4r18 9|67e11
+57U14*avance_linea_recta 6|44s4
+X 10 system.ads
+45K9*System 6|5r6 5r33 10|168e11
+X 19 s-bbtime.ads
+46M9*Time
+X 20 s-multip.ads
+18K16*Multiprocessors 6|5w13 5r40 20|31e27
+X 24 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 29 s-taskin.ads
+407V13*Get_Sec_Stack{24|46P9} 408i<c,__gnat_get_secondary_stack>22
+X 31 s-tarest.ads
+232U14*Activate_All_Tasks_Sequential 233i<c,__gnat_activate_all_tasks>22
+X 34 uart.ads
+1K9*UART 6|1w6 1r16 34|12e9
+3U13*InitUART 6|22s4
+3i22 nUart{integer} 6|22r13
+

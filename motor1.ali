@@ -1,0 +1,137 @@
+V "GNAT Lib v2020"
+A -gnatA
+A --RTS=/tools/GNAT/gnat-2020-arm/arm-eabi/lib/gnat/ravenscar-full-zynq7000/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-a9
+A -mfpu=vfpv3
+A -marm
+A -mno-unaligned-access
+A -march=armv7-a+mp+sec+vfpv3
+P DB LC TF  ZX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_TASKS=1
+
+U motor1%b		motor1.adb		8705b929 OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W system%s		system.ads		system.ali
+Z system.relative_delays%s  s-reldel.adb	s-reldel.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+W uart%s		uart.adb		uart.ali  AD
+
+U motor1%s		motor1.ads		2dac8a98 EE OO PK IL
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+T 1 1
+
+D ada.ads		20210218105137 76789da1 ada%s
+D a-except.ads		20210218105137 a7106115 ada.exceptions%s
+D a-reatim.ads		20210218105137 4c16970e ada.real_time%s
+D a-unccon.ads		20210218105137 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210218105137 5ab55268 interfaces%s
+D motor1.ads		20260515134855 2dac8a98 motor1%s
+D motor1.adb		20260515140644 4be8a497 motor1%b
+D system.ads		20210218105137 da70b04d system%s
+D s-bb.ads		20210218105137 09e072ae system.bb%s
+D s-bbbosu.ads		20210218105137 b43d4db6 system.bb.board_support%s
+D s-bbcppr.ads		20210218105137 59b80593 system.bb.cpu_primitives%s
+D s-bbcpsp.ads		20210218105137 720822f6 system.bb.cpu_specific%s
+D s-bbinte.ads		20210218105137 c88d39da system.bb.interrupts%s
+D s-bbpara.ads		20210218105137 b8769de5 system.bb.parameters%s
+D s-bbthre.ads		20210218105137 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20210218105137 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20210218105137 ad086247 system.bb.time%s
+D s-multip.ads		20210218105137 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20210218105137 229b14dd system.os_interface%s
+D s-parame.ads		20210218105137 96993d70 system.parameters%s
+D s-reldel.ads		20210218105137 d2ec2544 system.relative_delays%s
+D s-secsta.ads		20210218105137 56a2861c system.secondary_stack%s
+D s-stalib.ads		20210218105137 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20210218105137 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20210218105137 801abd01 system.task_info%s
+D s-taspri.ads		20210218105137 351848fa system.task_primitives%s
+D s-taskin.ads		20210218105137 58b15916 system.tasking%s
+D s-tasres.ads		20210218105137 0c8ef6fb system.tasking.restricted%s
+D s-tarest.ads		20210218105137 c88b6d9a system.tasking.restricted.stages%s
+D s-traent.ads		20210218105137 005bf670 system.traceback_entries%s
+D uart.ads		20250130102942 80944a2c uart%s
+G a e
+G c b b b [b motor1 6 1 none]
+G c Z s b [avance_linea_recta motor1 57 14 none]
+G c Z s b [para motor1 59 14 none]
+G c Z s b [giro_izquierda motor1 61 14 none]
+G c Z s b [giro_derecha motor1 63 14 none]
+G c Z s b [punto2TK motor1 65 9 none]
+G c Z s s [punto2TKVIP motor1 65 4 none]
+G c Z s s [datosIP motor1 37 9 none]
+G c Z s s [gpio_motorIP motor1 51 9 none]
+G r c none [b motor1 6 1 none] [put uart 6 13 none]
+G r c none [punto2TK motor1 65 9 none] [put uart 6 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 7|1r6 1r25
+X 3 a-reatim.ads
+41K13*Real_Time 182e18 7|1w10 1r29
+61I9*Time_Span<17|81I9> 7|55r13
+94V14*"-"{61I9} 7|72s30 84s30 96s30
+119V13*To_Duration{duration} 7|67s16 72s16 79s16 84s16 91s16 96s16
+121V13*To_Time_Span{61I9} 7|58s12 59s12
+X 6 motor1.ads
+1K9*motor1 67l5 67e11 7|6b14 121l5 121t11
+28E9*sentido 28e45 29r8 33r8 40r17 41r16
+28n21*parado{28E9} 30r21 7|30r29 31r29
+28n29*atras{28E9} 31r21
+28n36*adelante{28E9} 32r21 7|20r29 21r29 38r29 39r29 46r29 47r29
+37R9*datos 42e14 44r8 52r13
+38b7*pwmi{boolean} 45r7 7|64m20 70m20 76m20 82m20 88m20 94m20
+39b7*pwmd{boolean} 46r7 7|65m20 71m20 77m20 83m20 89m20 95m20
+40e7*sentidoD{28E9} 47r7 7|21m17 31m17 39m17 47m17
+41e7*sentidoI{28E9} 48r7 7|20m17 30m17 38m17 46m17
+51R9*GPIO_motor 54e14 7|10r10
+52r7*data{37R9} 7|20m12 21m12 30m12 31m12 38m12 39m12 46m12 47m12 64m15 65m15
+. 70m15 71m15 76m15 77m15 82m15 83m15 88m15 89m15 94m15 95m15
+53i7*control{integer} 7|19m12
+57U14*avance_linea_recta 7|16b14 24l8 24t26 63s10
+59U14*para 7|28b14 34l8 34t12 69s10 81s10 93s10
+61U14*giro_izquierda 7|44b14 50l8 50t22
+63U14*giro_derecha 7|36b14 42l8 42t20 75s10 87s10
+65t9*punto2 7|54b14 117l8 117t14
+X 7 motor1.adb
+10r4 P8LD{6|51R9} 14m8 14r8 19m7 20m7 21m7 30m7 31m7 38m7 39m7 46m7 47m7
+. 64m10 65m10 70m10 71m10 76m10 77m10 82m10 83m10 88m10 89m10 94m10 95m10
+11b4 v1{boolean} 22m7 32m7 40m7 48m7 64r28 70r28 76r28 82r28 88r28 94r28
+11b8 v2{boolean} 23m7 33m7 41m7 49m7 65r28 71r28 77r28 83r28 89r28 95r28
+55i7 x{3|61I9} 58m7 72r28 84r28 96r28
+55i10 y{3|61I9} 59m7 67r28 72r32 79r28 84r32 91r28 96r32
+X 8 system.ads
+45K9*System 7|3r6 14r25 8|168e11
+75M9*Address
+X 17 s-bbtime.ads
+81I9*Time_Span<long_long_integer>
+X 22 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 24 s-stoele.ads
+42K16*Storage_Elements 7|3w13 14r32 24|117e28
+107V13*To_Address{8|75M9} 7|14s49
+X 27 s-taskin.ads
+407V13*Get_Sec_Stack{22|46P9} 408i<c,__gnat_get_secondary_stack>22
+X 29 s-tarest.ads
+232U14*Activate_All_Tasks_Sequential 233i<c,__gnat_activate_all_tasks>22
+X 31 uart.ads
+1K9*UART 7|2w6 2r16 31|12e9
+6U13*Put 7|60s7 66s10 68s10 78s10 80s10 90s10 92s10
+

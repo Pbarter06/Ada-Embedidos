@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 56" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 59" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 25" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/uart.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/uart.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 29" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 25" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 10" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 15" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 57" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 49" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 57" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 28" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 57" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 57" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 14" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 15" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 52" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 52" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/tools/GNAT/gnat-2020-arm/arm-eabi/lib/gnat/ravenscar-full-zynq7000/gnat/system.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 42" >
+      <vfs_project />
+      <vfs_file>/tools/GNAT/gnat-2020-arm/arm-eabi/lib/gnat/ravenscar-full-zynq7000/gnat/system.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 31" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 42" >
+      <vfs_project />
+      <vfs_file>/tools/GNAT/gnat-2020-arm/arm-eabi/lib/gnat/ravenscar-full-zynq7000/gnat/system.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 61" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 11" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 38" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 38" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 38" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 38" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 60" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 38" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 38" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 38" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 38" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 38" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 6" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 44" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 44" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 16" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 44" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 44" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 67" line=" 14" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 32" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 12" >
+      <vfs_project>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr</vfs_project>
+      <vfs_file>/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

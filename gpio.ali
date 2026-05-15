@@ -1,0 +1,105 @@
+V "GNAT Lib v2020"
+A -gnatA
+A --RTS=/tools/GNAT/gnat-2020-arm/arm-eabi/lib/gnat/ravenscar-full-zynq7000/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-a9
+A -mfpu=vfpv3
+A -marm
+A -mno-unaligned-access
+A -march=armv7-a+mp+sec+vfpv3
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U gpio%b		gpio.adb		89d633a3 OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z system%s		system.ads		system.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W uart%s		uart.adb		uart.ali
+
+U gpio%s		gpio.ads		247e5845 EE NE OO PK IU
+W system%s		system.ads		system.ali
+W system.multiprocessors%s  s-multip.adb	s-multip.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20210218105137 76789da1 ada%s
+D a-reatim.ads		20210218105137 4c16970e ada.real_time%s
+D gpio.ads		20260414112650 fa831c74 gpio%s
+D gpio.adb		20260414112444 bfd7f2f5 gpio%b
+D interfac.ads		20210218105137 5ab55268 interfaces%s
+D system.ads		20210218105137 da70b04d system%s
+D s-bb.ads		20210218105137 09e072ae system.bb%s
+D s-bbbosu.ads		20210218105137 b43d4db6 system.bb.board_support%s
+D s-bbcppr.ads		20210218105137 59b80593 system.bb.cpu_primitives%s
+D s-bbcpsp.ads		20210218105137 720822f6 system.bb.cpu_specific%s
+D s-bbinte.ads		20210218105137 c88d39da system.bb.interrupts%s
+D s-bbpara.ads		20210218105137 b8769de5 system.bb.parameters%s
+D s-bbthre.ads		20210218105137 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20210218105137 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20210218105137 ad086247 system.bb.time%s
+D s-multip.ads		20210218105137 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20210218105137 229b14dd system.os_interface%s
+D s-stoele.ads		20210218105137 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20210218105137 5ecf7212 system.unsigned_types%s
+D uart.ads		20250130102942 80944a2c uart%s
+G a e
+G c Z s b [init gpio 53 11 none]
+G c Z s b [readbutton0 gpio 54 10 none]
+G c Z s b [readbutton1 gpio 55 10 none]
+G c Z s b [enciendergb gpio 56 11 none]
+G c Z s s [ctrl_btnIP gpio 12 9 none]
+G c Z s s [gpio_btnIP gpio 22 9 none]
+G c Z s s [ctrl_rgbIP gpio 38 9 none]
+G c Z s s [gpio_rgbIP gpio 48 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 4|1r6 1r25
+X 2 a-reatim.ads
+41K13*Real_Time 182e18 4|1w10 1r29
+X 3 gpio.ads
+5K9*GPIO 58l5 58e9 4|4b14 48l5 48t9
+8E9*ButtonState 8e33 9r8 10r8 13r14 14r14
+8n25*Off{8E9} 9r26
+8n30*On{8E9} 9r39 4|22r27 31r27
+12R9*Ctrl_BTN 15e14 17r8 23r15
+13e7*btn0{8E9} 18r7 4|22r20
+14e7*btn1{8E9} 19r7 4|31r20
+22R9*GPIO_BTN 25e14 4|6r9
+23r7*datos{12R9} 4|22r14 31r14
+24i7*control{integer} 4|16m11
+29E9*RGBtype 29e51 30r8 36r8 39r17 40r17 56r40 4|38r43
+29n21*off{29E9} 31r21
+29n26*red{29E9} 32r21
+29n31*green{29E9} 33r21
+29n38*blue{29E9} 34r21
+29n44*violet{29E9} 35r21
+38R9*Ctrl_RGB 41e14 43r8 49r13
+39e7*rgbColor0{29E9} 44r7 4|40m17
+40e7*rgbColor1{29E9} 45r7 4|41m17
+48R9*GPIO_RGB 51e14 4|9r9
+49r7*datos{38R9} 4|40m11 41m11
+50i7*control{integer} 4|15m11
+53U11*Init 4|13b14 17l8 17t12
+54V10*ReadButton0{boolean} 4|20b13 27l8 27t19
+55V10*ReadButton1{boolean} 4|29b13 36l8 36t19
+56U11*EnciendeRGB 56>24 56>32 4|38b14 43l8 43t19
+56e24 color1{29E9} 4|38b27 40r28
+56e32 color2{29E9} 4|38b35 41r28
+X 4 gpio.adb
+6r4 BTN{3|22R9} 7m8 7r8 16m7 22r10 31r10
+9r4 RGB{3|48R9} 10m8 10r8 15m7 40m7 41m7
+X 6 system.ads
+45K9*System 3|1r6 2r6 3r5 4|7r24 10r24 6|168e11
+75M9*Address
+X 16 s-multip.ads
+18K16*Multiprocessors 3|2w13 3r12 16|31e27
+X 18 s-stoele.ads
+42K16*Storage_Elements 3|1w13 4|7r31 10r31 18|117e28
+107V13*To_Address{6|75M9} 4|7s48 10s48
+X 20 uart.ads
+1K9*UART 4|2w6 2r15 20|12e9
+

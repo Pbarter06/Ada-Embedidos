@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__demo.o
+[PROJECT FILES]
+/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.gpr
+20250130102942 7279bf35c7a464004ca553a232919146
+[BOUND OBJECT FILES]
+/home/abaghov/Documentos/STR/PR6/RGB-Buttons/uart.o
+/home/abaghov/Documentos/STR/PR6/RGB-Buttons/gpio.o
+/home/abaghov/Documentos/STR/PR6/RGB-Buttons/motor1.o
+/home/abaghov/Documentos/STR/PR6/RGB-Buttons/demo.o
+[GENERATED SOURCE FILES]
+b__demo.ads
+b__demo.adb
+b__demo.ali
+[RESULTING OPTIONS]
+-L/home/abaghov/Documentos/STR/PR6/RGB-Buttons/
+-L/home/abaghov/Documentos/STR/PR6/RGB-Buttons/
+-L/tools/GNAT/gnat-2020-arm/arm-eabi/lib/gnat/ravenscar-full-zynq7000/adalib/
+-static
+-static-libgcc
+/tools/GNAT/gnat-2020-arm/arm-eabi/lib/gnat/ravenscar-full-zynq7000/adalib/libgnarl.a
+/tools/GNAT/gnat-2020-arm/arm-eabi/lib/gnat/ravenscar-full-zynq7000/adalib/libgnat.a
