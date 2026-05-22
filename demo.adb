@@ -22,6 +22,7 @@ begin
    InitUART(nUart => 0);
   
    Init;
+   init_sensor;
    --Put("HOLA");
  --    loop
  --  btn0:=ReadButton0;
@@ -52,4 +53,3 @@ begin
 delay until Ada.Real_Time.Time_Last;
    
 end Demo;
-
