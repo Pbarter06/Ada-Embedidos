@@ -66,6 +66,8 @@ package motor1 is
       data    : sensor;
       control : integer;
    end record;
+   
+   
 
    procedure avance_linea_recta;
 
@@ -83,5 +85,33 @@ package motor1 is
 
    function LeerSensorIzquierda return Boolean;
    function LeerSensorDerecha return Boolean;
+   
+   -- PRACTICA 8
+   type ultrasonidos is record
+      trigger : Boolean;
+      echo   : Boolean;
+   end record;
+
+   for ultrasonidos use
+      record
+         trigger at 0 range 1 .. 1;
+         echo   at 0 range 0 .. 0;
+      end record;
+   
+   
+   type GPIO_ultra is record
+      data    : ultrasonidos;
+      control : integer;
+   end record;
+   
+   
+   procedure enviaSenyalON;
+   procedure enviaSenyalOFF;
+   
+   function recibeSenyal return boolean; -- boolean correspone al valor del echo
+   
+   task Sensorizacion;
+
+   
 
 end motor1;
