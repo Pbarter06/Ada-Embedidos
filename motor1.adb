@@ -6,6 +6,9 @@ package body motor1 is
 
    P8LD   : GPIO_motor;
    v1, v2 : boolean := TRUE;
+   
+   Ultra : GPIO;
+   for Ultra'address use system.storage_elements.To_address (16#41220000#);
 
    for P8LD'address use system.storage_elements.To_address (16#40000000#);
 
@@ -18,6 +21,7 @@ package body motor1 is
    procedure init_sensor is
    begin
       SWT.control := 16#FF#;
+      ultra.control := 16#01#; 
    end init_sensor;
    
    procedure avance_linea_recta is
@@ -187,5 +191,51 @@ package body motor1 is
    begin
       return not SWT.data.derecha;
    end LeerSensorDerecha;
+   
+   procedure enviaSenyalON is 
+   begin
+      
+      ultra.data.trigger := true; 
+      
+   end enviaSenyalON;
+     
+   procedure enviaSenyalOFF is 
+   begin
+      ultra.data.trigger := false; 
+   end enviaSenyalOFF;
+   
+   function recibeSenyal return Boolean is
+   begin 
+      return ultra.data.echo; 
+   end recibeSenyal;
+   
+     
+     
+   
+   task body Sensorizacion is
+      t_init, t_fin : Time; 
+      t_dif : Time_Span; 
+      dist : float; 
+      
+   begin
+      
+      enviaSenyalOFF; 
+      delay 0.000012; 
+      enviaSenyalON; 
+      delay 0.000010; 
+      enviaSenyalOFF; 
+      t_init := Clock; 
+      loop 
+         exit when recibeSenyal = true; 
+      end loop; 
+      loop 
+         exit when recibeSenyal = false; 
+      end loop; 
+      t_fin := Clock;
+      t_dif := t_fin - t_init; 
+      dist := 340 * float(t_dif); 
+      
+   end Sensorizacion;
+   
 
 end motor1;
